@@ -75,12 +75,7 @@ function operacion(){
 function ce(){
     const c = document.getElementById('c');
     c.addEventListener('click', e => {
-        console.log('ce');
-        screen.innerHTML = '';
-        //quizás deba meter ifs por si estan vacias las variables no es necesarios convertirlas a string vacio
-        num1 = '';
-        num1en = '';
-        num2 = '';
+        location.reload();
     });
 }
 
