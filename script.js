@@ -70,6 +70,7 @@ function operacion(){
             result = num1en * num2en;
             screen.innerHTML = result;
             break;       
+        
     }
 }
 
@@ -77,7 +78,9 @@ function ce(){
     const c = document.getElementById('c');
     c.addEventListener('click', e => {
         location.reload();
+        
     });
 }
+
 
 
