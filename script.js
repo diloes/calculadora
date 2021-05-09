@@ -11,6 +11,7 @@ let num2en;
 
 document.addEventListener('DOMContentLoaded', function(){
     n1();
+    ce();
 });
 
 function n1(){
