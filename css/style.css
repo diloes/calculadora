@@ -1,0 +1,76 @@
+/*** GLOBALES  ***/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 3rem;
+}
+
+.calc__contenedor {
+    margin: 5rem auto 0 auto;
+    height: 40rem;
+    max-width: 50rem;
+    padding: 2rem;
+    gap: 0.5rem;
+    background-color: #98D0EA;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr) ;        
+    grid-template-areas: 'ce scr scr scr'
+                         'sie ocho nue suma'
+                         'cua cin seis rest'
+                         'uno dos tres divd'
+                         'cero pnt igu multi';
+}
+
+/** Asignación area a los botones **/
+#c {grid-area: ce;}
+#screen {grid-area: 1/2/2/5;}
+#siete{grid-area: sie;}
+#ocho{grid-area: ocho;}
+#nueve{grid-area: nue;}
+#suma{grid-area: suma;}
+#cuatro{grid-area: cua;}
+#cinco{grid-area: cin;} 
+#seis{grid-area: seis;}
+#restar{grid-area: rest;}
+#sumar{grid-area: suma;}
+#uno{grid-area: uno;}
+#dos{grid-area: dos;}
+#tres{grid-area: tres;}
+#dividir{grid-area: divd;}
+#cero{grid-area: cero;}
+#punto{grid-area: pnt;}
+#igual{grid-area: igu;}
+#multiplicar{grid-area: multi;}
+
+/* Colores */
+#igual {
+    background-color: #f2ff92;
+}
+
+#uno, #dos, #tres, #cuatro, #cinco, #seis, #siete, #ocho, #nueve, #cero, #punto {
+    background-color: white;
+}
+
+#c {
+    background-color: #ff9fa8;
+}
+
+#sumar, #restar, #dividir, #multiplicar {
+    background-color: #fff1f5;
+}
+
+#screen {
+    background-color: white;
+    border: 1px solid ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
