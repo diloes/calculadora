@@ -85,3 +85,10 @@ body {
     box-shadow: 1px 4px 1px 0px #400818;
 
 }
+
+#screen {
+    background-color: #a8e0e1;
+    color: #c46caa;
+    box-shadow: 1px 4px 4px;
+   
+}
