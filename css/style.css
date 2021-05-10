@@ -19,6 +19,7 @@ body {
     padding: 2rem;
     gap: 2rem;
     background-color: #98D0EA;
+    box-shadow: 5px 6px 15px #c46caa;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr) ;        
@@ -68,7 +69,9 @@ body {
 }
 
 #screen {
-    background-color: white;
+    background-color: #a8e0e1;
+    color: #c46caa;
+    box-shadow: 1px 4px 4px;
     border: 1px solid ;
     display: flex;
     justify-content: flex-end;
@@ -84,11 +87,4 @@ body {
     border: 1px solid;
     box-shadow: 1px 4px 1px 0px #400818;
 
-}
-
-#screen {
-    background-color: #a8e0e1;
-    color: #c46caa;
-    box-shadow: 1px 4px 4px;
-   
 }
