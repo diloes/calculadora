@@ -34,14 +34,14 @@ function n1(){
 function n2(){
     buttons.forEach(e => {
         e.addEventListener('click', i => {
-            num1en = parseInt(num1e);
+            num1en = parseFloat(num1e);
             console.log(num1en)
             num2 += e.innerHTML;
             console.log(`esto es num2: ${num2}`)
             screen.innerHTML = num2;
 
             if(e.innerHTML === '='){
-                num2en = parseInt(num2);
+                num2en = parseFloat(num2);
                 operacion();
             }
         });
